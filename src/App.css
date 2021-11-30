@@ -1,0 +1,117 @@
+General
+h3,
+p,
+div {
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+  list-style: none;
+}
+.user-card {
+  background-color: rgb(82, 82, 206);
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  margin: 50px;
+}
+.profile {
+  align-items: center;
+  text-align: center;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  margin-top: -24px;
+}
+.user-container {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+}
+.user-container p {
+  margin: 4px;
+}
+.info-container {
+  margin: 5px 30px;
+}
+.user-info {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(241, 233, 206);
+  align-items: left;
+  padding: 12px 15px;
+  border-radius: 0px 0px 25px 25px;
+}
+.spent {
+  color: rgba(161, 158, 158, 0.911);
+  font-size: 20px;
+  margin: 10px 0px;
+  align-items: center;
+}
+/* ExtensiveUser CSS */
+.extended-info {
+  color: rgb(169, 170, 159);
+}
+.extended-info {
+  width: 600px;
+}
+.basic-info {
+  width: 300px;
+}
+.top-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(241, 233, 206);
+  border-radius: 25px 25px 0px 0px;
+}
+.subindex {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(230, 228, 228);
+  align-items: center;
+  justify-content: space-between;
+}
+.subindex > a {
+  margin: auto;
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 50px;
+  background-color: rgb(82, 82, 206);
+  border-radius: 0px 0px 25px 25px;
+}
+.subindex > b {
+  width: 300px;
+  padding-left: 10px;
+}
+.subindex > p {
+  margin: 2px;
+  text-align: left;
+}
+.subindex {
+  padding: 20px 0px;
+  border: 1px solid black;
+}
+.cell {
+  width: 600px;
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
+}
+.container {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.username {
+  color: rgb(8, 8, 128);
+}
+.extensiveProfile {
+  display: block;
+}
+.extensiveProfile.show {
+  display: inline;
+}
